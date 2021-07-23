@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="private"
+          fetch="ssh://git@github.com/" />
+
+  <!-- Device trees -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="TeamWin" revision="android-7.1" />
+  <project path="device/XTC/msm8909w-common" name="XDPT-Core-Devs/android_device_XTC_msm8909w-common-twrp" remote="private" revision="android-7.1" />
+  <project path="device/XTC/msm8909w_i18" name="XDPT-Core-Devs/android_device_XTC_msm8909w_i18-twrp" remote="private" revision="android-7.1" />
+
+  <!-- Vendor trees -->
+
+</manifest>
