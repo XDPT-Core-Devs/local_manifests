@@ -2,20 +2,23 @@
 <manifest>
 
   <!-- Remotes -->
-  <remote name="private"
-          fetch="ssh://git@github.com/" />
+  <remote name="xdpt"
+          fetch="https://github.com/XTC-Droid-Port-Team/" />
+
+  <remote name="xdptcd"
+          fetch="https://github.com/XDPT-Core-Devs/" />
 
   <!-- Ready for replacing these repos -->
   <remove-project path="bootable/recovery" name="android_bootable_recovery" />
 
   <!-- Welcome to TeamWin Recovery Project -->
-  <project path="bootable/recovery" name="XTC-Droid-Port-Team/android_bootable_recovery" remote="github" revision="android-9.0" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="xdpt" revision="android-9.0" />
 
   <!-- Device trees -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="TeamWin" revision="android-7.1" />
-  <project path="device/XTC/msm8909w-common" name="XDPT-Core-Devs/android_device_XTC_msm8909w-common-twrp" remote="private" revision="android-7.1" />
-  <project path="device/XTC/msm8909w_i18" name="XDPT-Core-Devs/android_device_XTC_msm8909w_i18-twrp" remote="private" revision="android-7.1" />
-  <project path="device/XTC/msm8909w" name="XDPT-Core-Devs/android_device_XTC_msm8909w-twrp" remote="private" revision="android-7.1" />
+  <project path="device/XTC/msm8909w-common" name="android_device_XTC_msm8909w-common-twrp" remote="xdptcd" revision="android-7.1" />
+  <project path="device/XTC/msm8909w_i18" name="android_device_XTC_msm8909w_i18-twrp" remote="xdptcd" revision="android-7.1" />
+  <project path="device/XTC/msm8909w" name="android_device_XTC_msm8909w-twrp" remote="xdptcd" revision="android-7.1" />
 
   <!-- Vendor trees -->
 
