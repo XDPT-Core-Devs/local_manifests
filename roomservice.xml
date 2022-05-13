@@ -27,6 +27,8 @@
   <remove-project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="XDPT-Core-Devs/qaep_packages_apps_PackageInstaller"
            remote="private" revision="LAW.BR.2.0_RB1.07.01.01.177.017" />
+  <project path="packages/apps/DummyVoiceAssistant" name="XDPT-Core-Devs/qaep_packages_apps_DummyVoiceAssistant"
+           remote="private" revision="main" />
 
   <!-- SELinux -->
   <remove-project path="external/selinux" name="platform/external/selinux" />
