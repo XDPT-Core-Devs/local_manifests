@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Remotes -->
+  <remote name="gitlab"
+          fetch="ssh://git@gitlab.com/" />
+
+  <!-- Device trees -->
+  <project path="device/XTC/msm8909w" name="XTC-Droid-Port-Team/android_device_XTC_msm8909w" remote="gitlab" revision="cm-14.1" />
+
+  <!-- Vendor trees -->
+  <project path="vendor/XTC/msm8909w" name="XTC-Droid-Port-Team/proprietary_vendor_XTC_msm8909w" remote="gitlab" revision="cm-14.1" />
+
+</manifest>
