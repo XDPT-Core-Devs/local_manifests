@@ -12,6 +12,9 @@
   <!-- Vendor trees -->
   <project path="vendor/XTC/msm8909w" name="XTC-Droid-Port-Team/proprietary_vendor_XTC_msm8909w" remote="gitlab"
            revision="cm-14.1" />
+  <project path="vendor/qcom/opensource/display-frameworks"
+           name="XDPT-Core-Devs/android_vendor_qcom_opensource_display-frameworks"
+           remote="private" revision="cm-14.1-msm8909um" />
 
   <!-- HAL repos -->
   <project path="hardware/qcom/audio-caf/msm8909" name="XDPT-Core-Devs/android_hardware_qcom_audio" remote="private"
