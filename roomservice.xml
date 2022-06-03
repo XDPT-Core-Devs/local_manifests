@@ -4,11 +4,23 @@
   <!-- Remotes -->
   <remote name="gitlab"
           fetch="ssh://git@gitlab.com/" />
+  <remote name="private"
+          fetch="ssh://git@github.com/" />
 
   <!-- Device trees -->
-  <project path="device/XTC/msm8909w" name="XTC-Droid-Port-Team/android_device_XTC_msm8909w" remote="gitlab" revision="cm-14.1" />
+  <project path="device/XTC/msm8909w" name="XTC-Droid-Port-Team/android_device_XTC_msm8909w" remote="gitlab"
+           revision="cm-14.1" />
 
   <!-- Vendor trees -->
-  <project path="vendor/XTC/msm8909w" name="XTC-Droid-Port-Team/proprietary_vendor_XTC_msm8909w" remote="gitlab" revision="cm-14.1" />
+  <project path="vendor/XTC/msm8909w" name="XTC-Droid-Port-Team/proprietary_vendor_XTC_msm8909w" remote="gitlab"
+           revision="cm-14.1" />
+
+  <!-- HAL repos -->
+  <project path="hardware/qcom/audio-caf/msm8909" name="XDPT-Core-Devs/android_hardware_qcom_audio" remote="private"
+           revision="cm-14.1-msm8909um" />
+  <project path="hardware/qcom/display-caf/msm8909" name="XDPT-Core-Devs/android_hardware_qcom_display" remote="private"
+           revision="cm-14.1-msm8909um" />
+  <project path="hardware/qcom/media-caf/msm8909" name="XDPT-Core-Devs/android_hardware_qcom_media" remote="private"
+           revision="cm-14.1-msm8909um" />
 
 </manifest>
